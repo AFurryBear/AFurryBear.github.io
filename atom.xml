@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurrybear.github.io</id>
     <title>AFurryBear&apos;s Blog</title>
-    <updated>2021-05-13T07:51:56.573Z</updated>
+    <updated>2021-05-13T07:52:31.974Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurrybear.github.io"/>
     <link rel="self" href="https://afurrybear.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://afurrybear.github.io/images/avatar.png</logo>
     <icon>https://afurrybear.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, AFurryBear&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://afurrybear.github.io/post/about/</id>
+        <link href="https://afurrybear.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>在这里，你将听到和看到一头绒熊芜杂的心绪。</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站用于存放我的学习笔记，科研心得，以及生活观察。<br>
+发布的初衷是：把想法表达出来才能真正理解。以及如果有错误和不妥善值得改进的地方，还希望各位大佬多多指出来。先在此谢过了。</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>北师大认知神经专业硕士三年级生~<br>
+主要方向包括：弥散态磁共振成像、胼胝体、大脑尺度变化。<br>
+感兴趣方向包括：</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>重度社恐，很喜欢诸如马拉松、跳绳、HIIT等可以一个人神游太虚（正念）的运动。<br>
+音游爱好者，但相当手残，需要靠UP主带我看关卡的那种。</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>Email: renata_xiong@hotmail.com<br>
+Twitter: @AFurryBear1</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://afurrybear.github.io/post/hello-gridea/</id>
