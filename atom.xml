@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurrybear.github.io</id>
     <title>AFurryBear&apos;s Blog</title>
-    <updated>2021-05-13T10:19:59.745Z</updated>
+    <updated>2021-05-13T10:21:08.841Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurrybear.github.io"/>
     <link rel="self" href="https://afurrybear.github.io/atom.xml"/>
@@ -89,9 +89,9 @@ method3  while scode&gt;0，仿射变换，用于到标准模板的对应，具
 </code></pre>
 <h2 id="怎么配准">怎么配准？</h2>
 <p>线性配准： http://web.mit.edu/fsl_v5.0.10/fsl/doc/wiki/FLIRT(2f)UserGuide.html<br>
-        非线性配准： https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FNIRT/UserGuide<br>
-reference<br>
-https://nipy.org/nibabel/coordinate_systems.html<br>
+        非线性配准： https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FNIRT/UserGuide</p>
+<h1 id="reference">reference</h1>
+<p>https://nipy.org/nibabel/coordinate_systems.html<br>
 https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform.html</p>
 ]]></content>
     </entry>
