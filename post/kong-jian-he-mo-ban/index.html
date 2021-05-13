@@ -1,0 +1,269 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>空间和模板 | AFurryBear&#39;s Blog</title>
+<link rel="shortcut icon" href="https://afurrybear.github.io/favicon.ico?v=1620896708099">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://afurrybear.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="空间和模板 | AFurryBear&#39;s Blog - Atom Feed" href="https://afurrybear.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="特别注意
+
+空间和模板是两个概念，空间是规定的坐标系，模板是【组上平均脑】。
+有些文档就是喜欢把这两个概念混着说，看的时候要注意到底是在说啥。
+
+个体空间和标准空间
+个体空间：基于扫描仪坐标系
+reference space
+坐标原点：机器..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://afurrybear.github.io">
+  <img class="avatar" src="https://afurrybear.github.io/images/avatar.png?v=1620896708099" alt="">
+  </a>
+  <h1 class="site-title">
+    AFurryBear&#39;s Blog
+  </h1>
+  <p class="site-description">
+    解放思想，实事求是 <br/>Emancipate the mind, seek truth from the facts
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              空间和模板
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-05-13
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p><em>特别注意</em></p>
+<ol>
+<li>空间和模板是两个概念，空间是规定的坐标系，模板是【组上平均脑】。</li>
+<li>有些文档就是喜欢把这两个概念混着说，看的时候要注意到底是在说啥。</li>
+</ol>
+<h1 id="个体空间和标准空间">个体空间和标准空间</h1>
+<h2 id="个体空间基于扫描仪坐标系">个体空间：基于扫描仪坐标系</h2>
+<h3 id="reference-space">reference space</h3>
+<p><strong>坐标原点</strong>：机器的三个梯度平面交叉点。The origin of the axes is at the magnet isocenter. This is coordinate (0, 0, 0) in our reference space. All three axes pass through the isocenter.<br>
+单位：毫米。The units for all three axes are millimeters.<br>
+<strong>三个坐标轴</strong><br>
+<img src="https://afurrybear.github.io/post-images/1620896290828.png" alt="" loading="lazy"></p>
+<ol>
+<li>scanner axes（与站在机器后，面对机器的观察者一致）
+<ol>
+<li>上下：地板到天花板</li>
+<li>延伸方向：从磁环到床尾，平行于床</li>
+<li>左右：观察者左右</li>
+</ol>
+</li>
+<li>subject-centered scanner coordinate system（根据被试躺的方向为准，改变三个轴的顺序）most common：scanner RAS
+<ol>
+<li>被试平躺（脸朝上），脚朝床尾：三个轴的顺序为3，2，1（无颠倒，所以为RAS+）</li>
+<li>被试平卧（脸朝下），脚朝床尾：三个轴的顺序为-3，-2，1<br>
+注意：猩猩是驼背，扫的时候一般是侧卧的（有些特殊被试可能姿势也不太一样）<br>
+<img src="https://afurrybear.github.io/post-images/1620896343356.png" alt="" loading="lazy"></li>
+</ol>
+</li>
+</ol>
+<h3 id="voxel-coordinate-in-voxel-space刻画一个体素在数据矩阵3d图像中的位置">voxel coordinate in voxel space（刻画一个体素在数据矩阵/3D图像中的位置）</h3>
+<p>对于同一个被试，同次扫描获取了两个图像：anatomical（蓝色）和EPI（红色），bounding box不同，可以通过ijk2xyz矩阵（头文件的qform/sform中）找到它们的对应关系。</p>
+<h2 id="标准空间借助标准模板定义的空间用于把被试数据的脑子放整齐">标准空间：借助标准模板定义的空间（用于把被试数据的脑子放整齐）</h2>
+<h3 id="mni空间">MNI空间</h3>
+<p>借助模板：MNI152平均模板<br>
+坐标原点：前联合。The origin (0, 0, 0) point is defined to be the point that the anterior commissure of the MNI template brain crosses the midline (the AC point).<br>
+Axis units are millimeters.<br>
+Y轴【模板定义轴】：经过模板脑左右半球间的中线，穿过AC点，从posterior到anterior。The Y axis follows the midline of the MNI brain between the left and right hemispheres, going from posterior (negative) to anterior (positive), passing through the AC point. The template defines this line.<br>
+Z轴：垂直于X轴，穿过AC，从inferior到superior。The Z axis is at right angles to the Y axis, going from inferior (negative) to superior (positive), with the superior part of the line passing between the two hemispheres.<br>
+X轴：垂直于YZ轴。穿过AC，从左脑到右脑。The X axis is a line going from the left side of the brain (negative) to right side of the brain (positive), passing through the AC point, and at right angles to the Y and Z axes.</p>
+<h3 id="talairach空间相比mni目前不那么常用了">Talairach空间（相比MNI，目前不那么常用了）</h3>
+<p>借助模板：Talairach<br>
+坐标原点：前联合。<br>
+Y轴【模板定义轴】：经过后联合和前联合的线。</p>
+<h1 id="附加内容">附加内容：</h1>
+<h2 id="qform与sform">qform与sform</h2>
+<ol>
+<li>这俩是啥？<br>
+从ijk到xyz的变换矩阵。<br>
+sform存储了不同模板空间下的voxel坐标变换矩阵，把图像配准到相应的空间就有了。<br>
+qform存储了scanner space下坐标变换矩阵。<br>
+[qs]code存储了xyz的空间信息（见2-code信息）<br>
+<strong>注意：不是配准！不是说code=4的时候可以应用这个sform把个体的图像配准到标准模板上！这两个矩阵都是用来ijk2xyz的！别想多了！</strong></li>
+<li>怎么变的？<br>
+method1 强行变换的方法 x = pixdim[1] * i<br>
+method2  while qcode&gt;0，刚体变换，一般用于到scanner space/align anat的对应<br>
+method3  while scode&gt;0，仿射变换，用于到标准模板的对应，具体看code值</li>
+<li>code</li>
+</ol>
+<pre><code>#以nifti在nibabel加载为例
+/* [qs]form_code value: / / x,y,z coordinate system refers to: /
+/-----------------------/ /---------------------------------------*/
+#define NIFTI_XFORM_UNKNOWN      0 /! Arbitrary coordinates (Method 1). /
+#define NIFTI_XFORM_SCANNER_ANAT 1 /! Scanner-based anatomical coordinates /
+#define NIFTI_XFORM_ALIGNED_ANAT 2 /! Coordinates aligned to another file's, or to anatomical &quot;truth&quot;.            /
+#define NIFTI_XFORM_TALAIRACH    3 /! Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc. /
+#define NIFTI_XFORM_MNI_152      4 /! MNI 152 normalized coordinates. /
+</code></pre>
+<h2 id="怎么配准">怎么配准？</h2>
+<p>线性配准： http://web.mit.edu/fsl_v5.0.10/fsl/doc/wiki/FLIRT(2f)UserGuide.html<br>
+        非线性配准： https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FNIRT/UserGuide<br>
+reference<br>
+https://nipy.org/nibabel/coordinate_systems.html<br>
+https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform.html</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%AA%E4%BD%93%E7%A9%BA%E9%97%B4%E5%92%8C%E6%A0%87%E5%87%86%E7%A9%BA%E9%97%B4">个体空间和标准空间</a>
+<ul>
+<li><a href="#%E4%B8%AA%E4%BD%93%E7%A9%BA%E9%97%B4%E5%9F%BA%E4%BA%8E%E6%89%AB%E6%8F%8F%E4%BB%AA%E5%9D%90%E6%A0%87%E7%B3%BB">个体空间：基于扫描仪坐标系</a>
+<ul>
+<li><a href="#reference-space">reference space</a></li>
+<li><a href="#voxel-coordinate-in-voxel-space%E5%88%BB%E7%94%BB%E4%B8%80%E4%B8%AA%E4%BD%93%E7%B4%A0%E5%9C%A8%E6%95%B0%E6%8D%AE%E7%9F%A9%E9%98%B53d%E5%9B%BE%E5%83%8F%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE">voxel coordinate in voxel space（刻画一个体素在数据矩阵/3D图像中的位置）</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A0%87%E5%87%86%E7%A9%BA%E9%97%B4%E5%80%9F%E5%8A%A9%E6%A0%87%E5%87%86%E6%A8%A1%E6%9D%BF%E5%AE%9A%E4%B9%89%E7%9A%84%E7%A9%BA%E9%97%B4%E7%94%A8%E4%BA%8E%E6%8A%8A%E8%A2%AB%E8%AF%95%E6%95%B0%E6%8D%AE%E7%9A%84%E8%84%91%E5%AD%90%E6%94%BE%E6%95%B4%E9%BD%90">标准空间：借助标准模板定义的空间（用于把被试数据的脑子放整齐）</a>
+<ul>
+<li><a href="#mni%E7%A9%BA%E9%97%B4">MNI空间</a></li>
+<li><a href="#talairach%E7%A9%BA%E9%97%B4%E7%9B%B8%E6%AF%94mni%E7%9B%AE%E5%89%8D%E4%B8%8D%E9%82%A3%E4%B9%88%E5%B8%B8%E7%94%A8%E4%BA%86">Talairach空间（相比MNI，目前不那么常用了）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E9%99%84%E5%8A%A0%E5%86%85%E5%AE%B9">附加内容：</a>
+<ul>
+<li><a href="#qform%E4%B8%8Esform">qform与sform</a></li>
+<li><a href="#%E6%80%8E%E4%B9%88%E9%85%8D%E5%87%86">怎么配准？</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://afurrybear.github.io/post/about/">
+              <h3 class="post-title">
+                About
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://afurrybear.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
