@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>afurrybear.github.io</id>
+    <title>AFurryBear's Blog</title>
+    <updated>2021-05-26T07:54:50.433Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="afurrybear.github.io"/>
+    <link rel="self" href="afurrybear.github.io/atom.xml"/>
+    <subtitle>解放思想，实事求是
+Emancipate the mind, seek truth from the facts</subtitle>
+    <logo>https://static.gridea.dev/298441125862048266/oBIrSOYAj.jpg</logo>
+    <icon>https://static.gridea.dev/298441125862048266/oBIrSOYAj.jpg</icon>
+    <rights>All rights reserved 2021, AFurryBear's Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[神经组织染色和示踪剂方法]]></title>
+        <id>https://afurrybear.github.io/shen-jing-zu-zhi-ran-se-he-shi-zong-ji-fang-fa</id>
+        <link href="https://afurrybear.github.io/shen-jing-zu-zhi-ran-se-he-shi-zong-ji-fang-fa"/>
+        <updated>2021-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[神经组织染色
+细胞器
+
+尼氏染色（Nissl staining）
+
+原理：染色神经元胞体内含有大量嗜碱性的尼氏小体。
+特性：虽然尼氏染色法既可清晰辨别尼氏体以及胞核、核仁，又很容易区分轴突和树突，但该法仅应用于脑，脊髓等尼氏体较为丰富的组织...]]></summary>
+        <content type="html"><![CDATA[<h1 id="神经组织染色">神经组织染色</h1>
+<h2 id="细胞器">细胞器</h2>
+<ul>
+<li>尼氏染色（Nissl staining）
+<ul>
+<li>原理：染色神经元胞体内含有大量嗜碱性的尼氏小体。</li>
+<li>特性：虽然尼氏染色法既可清晰辨别尼氏体以及胞核、核仁，又很容易区分轴突和树突，但该法仅应用于脑，脊髓等尼氏体较为丰富的组织。</li>
+</ul>
+</li>
+</ul>
+<h2 id="神经元">神经元</h2>
+<ul>
+<li>Golgi法染色
+<ul>
+<li>原理：由于神经元具有较强的嗜银性，当组织处于含有银离子的溶液中，神经元可选择性地浸染银离子。</li>
+<li>延伸方法：<strong>溃变神经元的特异性染色</strong>组织切片经过铜银溶液或多聚甲醛溶液浸染后，正常神经元被抑制染色，从而区分出溃变神经元，且染色结果背景清晰，溃变神经元及其轴突结构完整。</li>
+</ul>
+</li>
+<li>FJ法染色
+<ul>
+<li>原理：FJ染料对变性神经元具有很高亲和力，在紫外线照射 条件下，坏死神经元显现蓝色荧光，由此对损伤神经元进行定性，定量研究。</li>
+<li>应用：FJ染色除了能浸染溃变神经元外，还可以用于退变有髓纤维束的追踪；此外，其还可与其它荧光素标记物结合进行多重荧光染色。</li>
+</ul>
+</li>
+</ul>
+<h2 id="髓鞘染色">髓鞘染色</h2>
+<ul>
+<li>媒染法</li>
+<li>锇酸与类脂质的特殊反应</li>
+<li>油溶性染料浸染法（Luxol固蓝）
+<ul>
+<li>原理：固蓝在乙醇溶液内具有与髓鞘磷脂结合染色的特性，如再经过中性红或焦油紫复染，对髓鞘着色有一定的强化效应。</li>
+<li>应用：该法对于鉴定神经髓鞘的特异性具有良好的标记作用，常用于显示髓鞘含量丰富的神经传导束，如皮质脊髓束。此外，也可用来分析髓鞘再生及脱髓鞘的程度。</li>
+</ul>
+</li>
+</ul>
+<h2 id="神经纤维">神经纤维</h2>
+<ul>
+<li>神经纤维染色也是依据神经纤维对银离子的特殊吸附性</li>
+<li>应用：
+<ul>
+<li><strong>全部神经纤维</strong>：通过甲醛溶液将吸附于神经纤维内的银复合物还原生成棕黑色铬银沉淀</li>
+<li><strong>溃变神经纤维</strong>：将组织切片依次浸入（高锰酸钾、草酸和苯二酚混合液、硝酸铀）或（铜银溶液）进行预处理，选择性浸染出溃变的神经纤维</li>
+</ul>
+</li>
+</ul>
+<h1 id="示踪剂方法">示踪剂方法</h1>
+<h2 id="顺行示踪技术">顺行示踪技术</h2>
+<ul>
+<li>顺行示踪剂主要被神经元胞体和树突吸收，然后运动至轴突，从而标记该神经元投射的区域。</li>
+<li>示踪剂
+<ol>
+<li>植物血凝素（PHA-L）：主要优点是所显示的神经纤维末梢形态非常细致，基本上没有过路纤维标记问题。</li>
+<li>放射性标记的氨基酸：这些氨基酸被吸收并掺入到神经元的蛋白质中，通过运动至轴突，也能够从轴突末端释放，并被对应的突触后神经元吸收。</li>
+</ol>
+</li>
+</ul>
+<h2 id="逆行示踪技术">逆行示踪技术</h2>
+<ul>
+<li>逆行示踪剂通常被轴突末端吸收然后反向运输到胞体。</li>
+<li>示踪剂
+<ol>
+<li>辣根过氧化物酶</li>
+<li>霍乱毒素亚基 b（CTb）</li>
+<li>葡聚糖：葡聚糖与不同的标记物结合形成各种追踪剂，例 TMR-DA、FITC-DA、BDA等，尤以TMR-DA和BDA最为常用，前者主要用于逆行追踪，也可用于顺行追踪，后者可用于顺行追踪。</li>
+</ol>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://afurrybear.github.io/about</id>
+        <link href="https://afurrybear.github.io/about"/>
+        <updated>2021-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[
+在这里，你将听到和看到一头绒熊芜杂的心绪。
+
+🏠 关于本站
+本站用于存放我的学习笔记，科研心得，以及生活观察。
+发布的初衷是：把想法表达出来才能真正理解。以及如果有错误和不妥善值得改进的地方，还希望各位大佬多多指出来。先在此谢过了。
+�...]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>在这里，你将听到和看到一头绒熊芜杂的心绪。</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站用于存放我的学习笔记，科研心得，以及生活观察。<br>
+发布的初衷是：把想法表达出来才能真正理解。以及如果有错误和不妥善值得改进的地方，还希望各位大佬多多指出来。先在此谢过了。</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>北师大认知神经专业硕士三年级生~<br>
+主要方向包括：弥散态磁共振成像、胼胝体、大脑尺度变化。<br>
+感兴趣方向包括：</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>重度社恐，很喜欢诸如马拉松、跳绳、HIIT等可以一个人神游太虚（正念）的运动。<br>
+音游爱好者，但相当手残，需要靠UP主带我看关卡的那种。</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>Email: renata_xiong@hotmail.com<br>
+Twitter: @AFurryBear1</p>
+]]></content>
+    </entry>
+</feed>
