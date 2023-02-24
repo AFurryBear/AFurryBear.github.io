@@ -2,96 +2,85 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yirong Xiong
     - name: Date of Birth
-      value: 14th March 1879
+      value: 5th July 1996
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: M.Sc in Neural Information Processing
+      institution: Universität Tübingen, Tübingen, Germany
+      year: 2021 - 2023
 
+    - title: M.Sc in Psychology
+      institution: Beijing Normal University, Beijing, China
+      year: 2018 - 2021
+
+    - title: B.Sc in Information Management and Information System
+      institution: Sun Yat-Sen University, Guangdong, China
+      year: 2014 - 2018
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Dissociated aperiodic and periodic neural dynamic
+      institution: Department of Computer Science, Dr. Anna Levina (Martius)
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Improved FOOOF model and fitting procedure of dissociated aperiodic and periodic neural dynamics. 
+    - title: Rate-distortion theory as a model of human representation learning
+      institution: Cluster of Excellence "Machine Learning”, Dr. Charley Wu
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designed an online compositional bandit experiment for representation learning. 
+    - title: Juvenile song detection
+      institution: Max Planck Institute For Ornithology, Dr. Daniela Vallentin
+      year: 2022
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Designed juvenile song detection pipeline using DAS.
+        - Designed UMAP interactive tool to check annotation efficiently.
+    - title: UMAP labeling tool & Pitch learning model project
+      institution: Institute for Neurobiology, Dr. Lena Veit
+      year: 2021 - 2022
+      description:
+        - Developed a Web-based tool for visualizing and relabeling syllables <a href='https://github.com/AFurryBear/umap_vis'>(Github link)</a>.
+        - Fitted context-based pitch learning data with regression models.
+    - title: Corpus Callosum Topography Based on dMRI
+      institution: State Key Laboratory of Cognitive Neuroscience and Learning, Dr. Gaolang Gong
+      year: 2018 - 2021
+      description:
+        - Developed a track-generating and filtering pipeline using Mrtrix3. Obtained fibers passing through the corpus callosum and connecting left and right hemispheres.
+        - Generated individual corpus callosum topography based on HCP S1200 Database, and established group-averaged validated topographic maps with different weighting methods.
+        - Designed a Web-based tool-<a href='ccmapping.org'>CCmapping</a> to provide full and interactive access to the topographic result using Three.js, WebGL, and Node.js.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/AFurryBear/CCmapping">ccmapping</a>
+      year: 2021
+      description: a Web-based tool to visualize the topographic result of corpus callosum.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - IMPRS stipends (monthly funding for IMPRS 5-Year MSc/PhD program)
+
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Neural mechanism of learning
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - in a computational neuroscience perspective
+        - hopefully combining hyperbolic models
+    - title: Structural and functional characteristic of network
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Electronic keyboard, marathon, birdwatching
