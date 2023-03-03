@@ -53,12 +53,12 @@
       description:
         - Developed a track-generating and filtering pipeline using Mrtrix3. Obtained fibers passing through the corpus callosum and connecting left and right hemispheres.
         - Generated individual corpus callosum topography based on HCP S1200 Database, and established group-averaged validated topographic maps with different weighting methods.
-        - Designed a Web-based tool-<a href='ccmapping.org'>CCmapping</a> to provide full and interactive access to the topographic result using Three.js, WebGL, and Node.js.
+        - Designed a Web-based tool-<a href="https://github.com/AFurryBear/CCmapping">CCmapping</a> to provide full and interactive access to the topographic result using Three.js, WebGL, and Node.js.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/AFurryBear/CCmapping">ccmapping</a>
+    - title: <a href='http://ccmapping.org'>ccmapping</a>
       year: 2021
       description: a Web-based tool to visualize the topographic result of corpus callosum.
 
