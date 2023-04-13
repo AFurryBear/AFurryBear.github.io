@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 I am a master's student majoring in Neural Information Processing at <a href='https://www.neuroschool-tuebingen.de/'>Graduate Training Center of Neuroscience</a>. 
 <br/>
 <br/>
-In Tuebingen, I did my essay rotation at <a href='https://hmc-lab.com/'>Human and Machine Cognition Lab</a> and my lab rotation at <a href='https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/'>Dr. Anna Levina's lab</a>. Before coming to Tübingen, I worked on diffusion MRI and received a master’s degree in psychology from <a href='https://english.bnu.edu.cn/'>Beijing Normal University</a>. 
+In Tuebingen, I'm currently doing my master's thesis at <a href='https://www.burgalossilab.com/'>Burgalossi lab</a>. I did my essay rotation at <a href='https://hmc-lab.com/'>Human and Machine Cognition Lab</a> and my lab rotation at <a href='https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/'>Dr. Anna Levina's lab</a>. Before coming to Tübingen, I worked on diffusion MRI and received a master’s degree in psychology from <a href='https://english.bnu.edu.cn/'>Beijing Normal University</a>. 
 <br/>
 <br/>
 My research interests are the formation of cognitive maps and their neural mechanisms. Besides, I also want to build visualization tools for research. I am the creator and core developer of open-source visualization project <a href='http://ccmapping.org/'>CCmapping</a>, which provides a populational-based online interactive atlas of human brain callosal connectivity. 
