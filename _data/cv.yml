@@ -32,13 +32,13 @@
       institution: Department of Computer Science, Dr. Anna Levina (Martius)
       year: 2022 - 2023
       description:
-        - Improved FOOOF model and fitting procedure of dissociated aperiodic and periodic neural dynamics. 
+        - Dissociated aperiodic and periodic neural dynamics using LFP data from V1 and V4 in spatial visual attention task.
     - title: Rate-distortion theory as a model of human representation learning
       institution: Cluster of Excellence "Machine Learning”, Dr. Charley Wu
       year: 2022 - present
       description:
         - Designed an online compositional bandit experiment for representation learning. 
-	- Designed an online experiment for value-based memory.
+        - Designed an online experiment for value-based memory.
     - title: Juvenile song detection
       institution: Max Planck Institute For Ornithology, Dr. Daniela Vallentin
       year: 2022
@@ -50,7 +50,7 @@
       year: 2021 - 2022
       description:
         - Developed a Web-based tool for visualizing and relabeling syllables <a href='https://github.com/AFurryBear/umap_vis'>(Github link)</a>.
-        - Fitted context-based pitch learning data with regression models.
+        - Disentangled factors in context-based pitch learning using regression models. 
     - title: Corpus Callosum Topography Based on dMRI
       institution: State Key Laboratory of Cognitive Neuroscience and Learning, Dr. Gaolang Gong
       year: 2018 - 2021
