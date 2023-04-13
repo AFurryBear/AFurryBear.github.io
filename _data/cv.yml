@@ -25,9 +25,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Morphology and activity of head direction cells 
+      institution: Institute for Neurobiology, Dr. Andrea Burgalossi
+      year: 2023 - present
     - title: Dissociated aperiodic and periodic neural dynamic
       institution: Department of Computer Science, Dr. Anna Levina (Martius)
-      year: 2022 - present
+      year: 2022 - 2023
       description:
         - Improved FOOOF model and fitting procedure of dissociated aperiodic and periodic neural dynamics. 
     - title: Rate-distortion theory as a model of human representation learning
@@ -35,6 +38,7 @@
       year: 2022 - present
       description:
         - Designed an online compositional bandit experiment for representation learning. 
+	- Designed an online experiment for value-based memory.
     - title: Juvenile song detection
       institution: Max Planck Institute For Ornithology, Dr. Daniela Vallentin
       year: 2022
