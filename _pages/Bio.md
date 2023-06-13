@@ -25,4 +25,4 @@ In Tuebingen, I'm currently doing my master's thesis at <a href='https://www.bur
 My research interests are the formation of cognitive maps and their neural mechanisms. Besides, I also want to build visualization tools for research. I am the creator and core developer of open-source visualization project <a href='http://ccmapping.org/'>CCmapping</a>, which provides a populational-based online interactive atlas of human brain callosal connectivity. 
 <br/>
 <br/>
-I enjoy marathon running, bird-watching, cooking, and crocheting in my free time. I'm restarting writing blogs and tutorials <a href='https://renatax.notion.site/bearden-blogs-05d629576f1c40d9871290a0e8db7e9d'>here</a>.
+I enjoy running, bird-watching, cooking, crocheting, and playing puzzles in my free time (if there is such a thing). I'm restarting writing blogs and tutorials <a href='https://renatax.notion.site/bearden-blogs-05d629576f1c40d9871290a0e8db7e9d'>here</a>.
