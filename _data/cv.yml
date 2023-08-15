@@ -25,9 +25,18 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Neural mechanisms of encoding angular velocity in head direction cells 
+    - title: Drifting and reorientation in ring-attractors
+      institution: University of Konstanz, Dr. Vivek Hari Sridhar
+      year: 2023 - present
+      description:
+        - Built ring attractor model and simulated spontaneous network activities.
+        - Study drift and reorientation for goal-oriented navigation movement and its influence on synaptic strength.
+    - title: Electrophysiological diversity of head direction neurons in thalamus and presubiculum
       institution: Institute for Neurobiology, Dr. Andrea Burgalossi
       year: 2023 - present
+      description:
+        - Clustered head direction cells based on neural activities using unsupervised learning.
+        - Identified cell preferences for clockwise and counterclockwise rotation, to study evolving of head direction representation in rodents.
     - title: Dissociated aperiodic and periodic neural dynamic
       institution: Department of Computer Science, Dr. Anna Levina (Martius)
       year: 2022 - 2023
@@ -73,14 +82,10 @@
       items: 
         - IMPRS stipends (monthly funding for IMPRS 5-Year MSc/PhD program)
 
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Neural mechanism of learning
-      items: 
-        - in a computational neuroscience perspective
-        - hopefully combining hyperbolic models
+    - title: Neural mechanism of learning in a computational neuroscience perspective
     - title: Structural and functional characteristic of network
 
 
