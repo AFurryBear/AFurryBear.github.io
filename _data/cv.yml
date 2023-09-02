@@ -86,7 +86,10 @@
   type: nested_list
   contents:
     - title: Formation and generalization of cognitive map 
-
+      items:
+    	- Neural mechanisms and dynamics during spatial navigation 
+    	- Causal inference and decision making in cognitive map
+    	- Neural dynamics in self-organized network 
 
 - title: Other Interests
   type: list
