@@ -15,7 +15,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a master's student majoring in Neural Information Processing at <a href='https://www.neuroschool-tuebingen.de/'>Graduate Training Center of Neuroscience</a>. 
+I am a master's student majoring in Neural Information Processing at <a href='https://www.neuroschool-tuebingen.de/'>Graduate Training Center of Neuroscience</a>. <b>I'm looking for a phD position. </b>
 <br/>
 <br/>
 In Tuebingen, I'm currently doing my master's thesis at <a href='https://www.burgalossilab.com/'>Burgalossi lab</a>. Meanwhile I have a cognitive science project at <a href='https://hmc-lab.com/'>Human and Machine Cognition Lab</a> and a computational modeling project with <a href='https://www.vivekhsridhar.com/'>Dr. Vivek Sridhar</a>. I did my lab rotation at <a href='https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/'>Dr. Anna Levina's lab</a>. Before coming to Tübingen, I worked on diffusion MRI and received a master’s degree in psychology from <a href='https://english.bnu.edu.cn/'>Beijing Normal University</a>. 
