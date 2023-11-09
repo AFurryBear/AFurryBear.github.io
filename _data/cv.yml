@@ -25,6 +25,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Topology and dynamics of camouflage in cuttlefish
+      institution: Max Planck Institute for Brain Research, Prof. Gilles Laurent
+      year: 2023 - present
+      description:
+        - Estimate the topology of camouflage in high dimensional space and investigate the dynamics of behaviour trajectory.
+        - Conduct experiments on camouflage behaviour.
     - title: Drifting and reorientation in ring-attractors
       institution: University of Konstanz, Dr. Vivek Hari Sridhar
       year: 2023 - present
@@ -85,7 +91,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Formation and generalization of cognitive map 
+    - title: Learning and Memory
       items:
         - Neural mechanisms and dynamics during spatial navigation 
         - Causal inference and decision making in cognitive map
