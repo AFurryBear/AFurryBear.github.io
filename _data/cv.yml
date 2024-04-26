@@ -11,6 +11,10 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D in Neuroscience
+      institution: Johns Hopkins University, Baltimore, USA
+      year: 2024 - 
+
     - title: M.Sc in Neural Information Processing
       institution: Universität Tübingen, Tübingen, Germany
       year: 2021 - 2023
@@ -29,31 +33,32 @@
       institution: Max Planck Institute for Brain Research, Prof. Gilles Laurent
       year: 2023 - present
       description:
-        - Estimate the topology of camouflage in high dimensional space and investigate the dynamics of behaviour trajectory.
-        - Conduct experiments on camouflage behaviour.
+        - Design electrophysiological experiments on texture encoding in cuttlefish visual system. 
+        - Estimate the topology of camouflage in high dimensional space and investigate the dynamics of behaviour trajectory. 
     - title: Drifting and reorientation in ring-attractors
       institution: University of Konstanz, Dr. Vivek Hari Sridhar
       year: 2023 - present
       description:
-        - Built ring attractor model and simulated spontaneous network activities.
-        - Study drift and reorientation for goal-oriented navigation movement and its influence on synaptic strength.
+        - Simulated goal-directed navigation trajectory using ring attractor model. 
+        - Study how stimuli uncertainty and computational noise modulate bifurcation dynamics.}
     - title: Electrophysiological diversity of head direction neurons in thalamus and presubiculum
       institution: Institute for Neurobiology, Dr. Andrea Burgalossi
       year: 2023 - present
       description:
         - Clustered head direction cells based on neural activities using unsupervised learning.
         - Identified cell preferences for clockwise and counterclockwise rotation, to study evolving of head direction representation in rodents.
-    - title: Dissociated aperiodic and periodic neural dynamic
-      institution: Department of Computer Science, Dr. Anna Levina (Martius)
-      year: 2022 - 2023
-      description:
-        - Dissociated aperiodic and periodic neural dynamics using LFP data from V1 and V4 in spatial visual attention task.
     - title: Rate-distortion theory as a model of human representation learning
       institution: Cluster of Excellence "Machine Learning”, Dr. Charley Wu
       year: 2022 - present
       description:
         - Designed an online compositional bandit experiment for representation learning. 
         - Designed an online experiment for value-based memory.
+        - Simulated attention-based reinforcement learning model to study expertise effect on value-based memory. 
+    - title: Dissociated aperiodic and periodic neural dynamic
+      institution: Department of Computer Science, Dr. Anna Levina (Martius)
+      year: 2022 - 2023
+      description:
+        - Dissociated aperiodic and periodic neural dynamics using LFP data from V1 and V4 in spatial visual attention task.
     - title: Juvenile song detection
       institution: Max Planck Institute For Ornithology, Dr. Daniela Vallentin
       year: 2022
