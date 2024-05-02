@@ -25,5 +25,5 @@ I worked in <a href='https://hmc-lab.com/'>Human and Machine Cognition Lab</a> a
 My current research interests are learning and memory, especially in the context of spatial navigation. When I am not in lab, I enjoy writing popular science blogs. Besides, I love running, reading, cooking, and playing puzzles in my free time. 
 <br/>
 <br/>
-Fun fact about me: in the pilot scan of my experiment, I found the my left cerebellum is almost missing. Ever since that, this has been the best excuse of my poor dancing skill. I've made a <a href='https://afurrybear.com/assets/img/yirong-brain-slice.jpeg'>Valentine's day poster of my brain scan</a>. 
+Fun fact about me: in the pilot scan of my own experiment, I found my left cerebellum is almost missing. Ever since that, this has been the best excuse of my poor dancing skill. I've made a <a href='https://afurrybear.com/assets/img/yirong-brain-slice.jpeg'>Valentine's day poster of my brain scan</a>. 
 
