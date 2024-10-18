@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student <a href='https://xdbio.jhmi.edu/'>at Johns Hopkins University</a>
+subtitle: PhD student at <a href='https://xdbio.jhmi.edu/'>Johns Hopkins University</a>
 
 profile:
   align: left
